@@ -1,0 +1,3 @@
+<template>
+  <card-view />
+</template>
