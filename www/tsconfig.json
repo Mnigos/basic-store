@@ -24,22 +24,14 @@
       ]
     },
     "types": [
-      "@types/node",
       "@nuxt/types",
-      "@types/jest",
       "@nuxtjs/axios",
-      "nuxt-socket-io",
+      "@types/node"
     ]
   },
-  "include": [
-    "./**/*.ts",
-    "./**/*.vue",
-    "test/**/*.ts"
-, "plugins/vuex-persist.client.js", "plugins/vuex-persist.client.js"  ],
   "exclude": [
     "node_modules",
     ".nuxt",
-    "dist",
-    "cypress"
+    "dist"
   ]
 }

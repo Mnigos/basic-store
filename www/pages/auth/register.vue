@@ -1,3 +1,0 @@
-<template>
-  <register-form />
-</template>
