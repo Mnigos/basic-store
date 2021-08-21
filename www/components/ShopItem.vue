@@ -29,17 +29,18 @@
 import Vue from 'vue'
 export default Vue.extend({
   props: {
-    title: String,
-    imgSrc: String,
-    price: Number,
-
+    title: {
+      required: true,
+      type: String,
+    },
+    imgSrc: {
+      required: true,
+      type: String,
+    },
+    price: {
+      required: true,
+      type: Number,
+    },
   },
 })
-
 </script>
-
-<style>
-p {
-  color: white;
-}
-</style>
