@@ -7,7 +7,7 @@
       :color="$vuetify.theme.dark ? null : 'white'"
       elevate-on-scroll
     >
-      <v-toolbar-title style="width: 200px">SadojRP</v-toolbar-title>
+      <v-toolbar-title style="width: 200px">Weed Store</v-toolbar-title>
       <v-tabs align-with-title>
         <v-tab v-for="({ title, link, icon }, i) in links" :key="i" :to="link">
           <v-icon>{{ icon }}</v-icon>
