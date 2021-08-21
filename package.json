@@ -15,5 +15,14 @@
   },
   "devDependencies": {
     "husky": "4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn --cwd packages/api lint-staged && yarn --cwd packages/www lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": "eslint"
   }
 }
