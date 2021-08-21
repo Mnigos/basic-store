@@ -1,0 +1,6 @@
+commitlint.config.js
+jest.config.js
+.eslintrc.js
+node_modules
+coverage
+dist
