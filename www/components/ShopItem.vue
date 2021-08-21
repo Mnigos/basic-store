@@ -1,9 +1,8 @@
 <template>
-  <v-container>
-    <v-card class='mx-auto' width='256' height='485'>
+    <v-card class='mx-auto ma-5' width='256' height='485'>
       <div class='d-flex justify-center'>
         <v-img :src="imgSrc" class='mt-2'>
-        
+
         </v-img>
       </div>
       <v-card-title>
@@ -24,7 +23,6 @@
         </v-btn>
       </v-card-actions>
     </v-card>
-  </v-container>
 </template>
 
 <script lang='ts'>
@@ -36,12 +34,12 @@ export default Vue.extend({
     price: Number,
 
   },
-}) 
+})
 
 </script>
 
 <style>
 p {
-  color: white;   
+  color: white;
 }
 </style>
