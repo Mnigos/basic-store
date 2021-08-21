@@ -14,6 +14,14 @@
           {{ title }}
           </v-tab>
       </v-tabs>
+
+      <v-spacer></v-spacer>
+
+      <v-toolbar-items>
+        <v-btn color="primary" to="/cart" icon>
+          <v-icon>mdi-cart</v-icon>
+        </v-btn>
+      </v-toolbar-items>
     </v-app-bar>
   </div>
 </template>
