@@ -8,8 +8,15 @@
 
 <script lang="ts">
 import Vue from 'vue'
+
+import { Item } from '../interfaces/item'
+
+interface Data {
+  items: Item[]
+}
+
 export default Vue.extend({
-  data: () => ({
+  data: () => <Data>({
     items: [
       {
         title: 'Aligator Haze',
