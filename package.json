@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "lint-staged": "^11.1.2"
   },
   "devDependencies": {
